@@ -1,0 +1,7 @@
+<p class="text-decoration-underline">You adres is {{ adres }}</p>
+{% for description in data %}
+
+<p>{{ description }}</p>
+
+{% endfor %}
+<form action="{% url 'home' %}"><button>Домой</button></form>
